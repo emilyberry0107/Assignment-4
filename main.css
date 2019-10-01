@@ -1,0 +1,41 @@
+body{
+    background-color: silver;
+}
+
+div{
+    width: 160px;
+    height: 700px;
+
+    background-color:#639;
+}
+    
+div:nth-of-type(2){
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+
+    background-color: black;
+}
+
+div:nth-of-type(3){
+    position: fixed;
+    bottom: 25vh;
+    width: 25vw;
+    height: 25vh;
+    right: 25vw;
+    
+    border-radius: 10vw;
+    border: 30px double black;
+}
+
+div:nth-of-type(4){
+    position: fixed;
+    height: 34.17vh;
+    width: 17vw;
+    bottom: 0;
+    right: 0;
+
+    background-color:black;
+}
